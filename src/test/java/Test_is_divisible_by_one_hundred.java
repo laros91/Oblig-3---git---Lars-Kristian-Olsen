@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Is_divisible_by_one_hundred {
+public class Test_is_divisible_by_one_hundred {
     @ParameterizedTest
     @MethodSource ("number")
     public void isDivisibleByOneHundred (boolean expected, int input) {

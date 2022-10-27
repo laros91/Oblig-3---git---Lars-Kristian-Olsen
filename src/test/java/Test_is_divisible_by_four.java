@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Is_divisible_by_four {
+public class Test_is_divisible_by_four {
     @ParameterizedTest
     @MethodSource("number")
     public void is_Divisible_By_four (boolean expected, int input) {

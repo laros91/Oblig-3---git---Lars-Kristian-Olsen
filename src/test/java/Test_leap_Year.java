@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class Leap_Year {
+public class Test_leap_Year {
 
     @ParameterizedTest
     @MethodSource ("number")
